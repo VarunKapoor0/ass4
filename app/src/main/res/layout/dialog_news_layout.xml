@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_dialog_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:id="@+id/source"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:id="@+id/news_date"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headlines"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/source"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/description"
+            app:layout_constraintTop_toBottomOf="@+id/headlines"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/chromeIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/chrome"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="50dp"
+                android:clickable="true"
+                app:layout_constraintTop_toBottomOf="@+id/description"
+                app:layout_constraintStart_toStartOf="parent"
+                android:focusable="true" />
+            <ImageView
+                android:id="@+id/twitterIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="50dp"
+
+                android:src="@drawable/twitter_x_icon"
+                app:layout_constraintTop_toBottomOf="@+id/description"
+                app:layout_constraintStart_toEndOf="@+id/chromeIcon"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/facebookIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"
+                android:clickable="true"
+                app:layout_constraintTop_toBottomOf="@+id/description"
+                app:layout_constraintStart_toEndOf="@id/twitterIcon"
+                android:focusable="true" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</layout>

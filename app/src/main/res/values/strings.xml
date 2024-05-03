@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Stocks</string>
+    <string name="portfolio_header_text">Portfolio</string>
+    <string name="net_worth_heading_text">Net Worth</string>
+    <string name="cash_balance_header_text">Cash Balance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favourites_header_text">FAVOURITES</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search...</string>
+    <string name="shares_owned_title">Shares Owned:</string>
+    <string name="avg_cost_share_title">Avg. Cost / Share:</string>
+    <string name="total_cost_title">Total Cost:</string>
+    <string name="change_title">Change:</string>
+    <string name="market_value_title">Market Value:</string>
+    <string name="trade_button_text">TRADE</string>
+    <string name="stats_title">Stats</string>
+    <string name="open_price_title">Open Price:</string>
+    <string name="low_price_title">Low Price:</string>
+    <string name="high_price_title">High Price:</string>
+    <string name="prev_close_title">Prev. Close:</string>
+    <string name="about_title">About</string>
+    <string name="ipo_title">IPO Start Date:</string>
+    <string name="industry_title">Industry:</string>
+    <string name="webpage_title">Webpage:</string>
+    <string name="company_peers_title">Company Peers: </string>
+    <string name="insights_title">Insights</string>
+    <string name="social_sentiments_title">Social Sentiments</string>
+    <string name="msrp_title">MSRP</string>
+    <string name="insights_change_title">Change</string>
+    <string name="insights_total_title">Total</string>
+    <string name="insights_positive_title">Positive</string>
+    <string name="insights_negative_title">Negative</string>
+    <string name="recommendation_trends_title">Recommendation Trends</string>
+    <string name="historical_eps_surprises_title">Historical EPS Surprises</string>
+    <string name="news_title">News</string>
+    <string name="favourite_outline">favourite outline</string>
+</resources>
